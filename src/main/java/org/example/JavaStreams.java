@@ -26,7 +26,6 @@ class Person {
     public String toString(){
         return name + " - " + age;
     }
-
 }
 
 public class JavaStreams {
@@ -65,7 +64,6 @@ public class JavaStreams {
                 .filter(combined)
                 .toList();
         System.out.println("Even and >5: " + resultNum4);
-
 
         // Activity 5
         List<Person> myPerson = Arrays.asList(new Person("John", 32), new Person("Ben",20), new Person("Anna", 22), new Person("Mike", 25), new Person("Zara",29));
